@@ -20,7 +20,7 @@
     </div>
     <div class="form-group">
       <label for="email">Email:</label>
-      <input type="email" class="form-control">
+      <input type="email" class="form-control" required>
     </div>
     <div class="form-group">
       <label for="senha"></label>Senha</label>
@@ -37,7 +37,7 @@
         Módulo
         <div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="opcao1" checked>
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="opcao1">
             <label class="form-check-label" for="gridRadios1">1° Mód</label>
           </div>
           <div class="form-check">
@@ -71,8 +71,8 @@
     </div>
     <div class="form-group row"><br>
       <div class="col-sm-10">
-        <button type="clear" class="btn btn-secondary">Limpar</button>
-        <button type="submit" class="btn btn-success">Enviar</button>
+        <button type="reset" class="btn btn-secondary">Limpar</button>
+        <button type="submit" onsubmit="return validateForm()" class="btn btn-success">Enviar</button>
       </div>
     </div>
   </form>

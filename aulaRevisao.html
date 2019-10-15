@@ -1,0 +1,67 @@
+
+<script>
+    //Cria um pop-up de msg  
+   //alert("Podemos fazer mais de um JS!")
+
+   //Mostra uma msg ao usuário
+   //document.write("Minha idade é:  ");
+   //document.write(19);
+
+   /*var ano = 2012;
+   document.write("<h1> Eu nasci em: </h1>" + (ano - 25) + "<br>");
+   */
+
+   //Chamando uma função JS 
+    function mostra(frase){
+        document.write("frase" + "<br>");
+    }
+    /*var ano = 2012;
+    mostra("<h1> Eu nasci em: </h1>" + (ano - 25) + "<br>");*/
+
+    //Mostra no console
+    /*document.write("Olá mundo!");
+    document.write("Esse é meu segundo programa");
+    console.log("Essa mensagem aparece somente no log");*/
+
+    /*var peso = 75;
+    var altura = 1.90;
+    var imc = peso / (altura + altura);
+    mostra("Meu IMC é: " + Math.round(imc));
+    */
+
+    /*var nome  = prompt("Bom dia! "<br>" Qual é o seu nome?");
+    document.write("Bem Vindo(a)," + nome);
+    var idade = prompt(nome + ", Quantos anos você tem?");
+    */
+    /*
+    var vitorias = prompt("Quantos jogos o cpc Futebol clube venceu?");
+    var empate = prompt("Quantos jogos ")
+    */
+    
+    /*
+    var numeroPensado = Math.round(Math.random() * 100);
+    var chute = prompt("Já pensei "<br>" Qaul voEcê acha que é");
+    if(chute == numeroPensado){
+        mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+    }else{
+        mostra("Você errou! Eu tinha pensado no " + numeroPensado);
+    }
+    */
+    /*var anoDacopa = 1930;
+    while(anoDacopa <= 2022){
+        alert(anoDacopa + "Tem copa!");
+        anoDacopa - anoDacopa + 4;
+    }*/
+
+    /*var numero = 7;
+    for(var multiplicador = 1; multiplicador <= 10; multiplicador ++) {
+        mostra(multiplicador * numero);
+    }*/
+
+    for(var linha = 0; linha < 3; linha = linha + 1 ){
+        for(var coluna = 0; coluna < 10; coluna = coluna + 1){
+            document.write("+");
+        }
+        document.write("<br>");
+    }
+</script>
